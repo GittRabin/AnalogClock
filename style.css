@@ -1,10 +1,16 @@
 /* Layout */
+body {
+  float:none;
+  background-color: #4a5c7a;
+
+}
 .main {
     display: flex;
     padding: 2em;
     height: 90vh;
     justify-content: center;
     align-items: middle;
+
 }
 
 .clockbox,
@@ -45,8 +51,9 @@
 }
 
 .second-arm {
+
     fill: none;
-    stroke: #000;
+    stroke: red;
     stroke-width: 4;
     stroke-miterlimit: 10;
 }
@@ -62,5 +69,5 @@
 #minute,
 #second {
     transform-origin: 300px 300px;
-    transition: transform .5s ease-in-out;
+    /* transition: transform .5s ease-in-out; */
 }
