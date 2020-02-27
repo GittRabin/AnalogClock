@@ -4,4 +4,4 @@ JavaScript
 HTML
 CSS
 
-This project is live on www.aastaly.com
+This project is live on chaudharytech.com
